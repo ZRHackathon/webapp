@@ -13,7 +13,7 @@ class CreateContractorTable extends Migration
      */
     public function up()
     {
-        Schema::create('uren', function (Blueprint $table) {
+        Schema::create('contractor', function (Blueprint $table) {
             $table->integer('werknemer_id');
             $table->integer('contractor_id');
             $table->integer('project_id');
@@ -27,6 +27,6 @@ class CreateContractorTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('contractor');
     }
 }

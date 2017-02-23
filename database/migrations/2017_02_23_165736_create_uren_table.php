@@ -27,6 +27,6 @@ class CreateUrenTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('uren');
     }
 }

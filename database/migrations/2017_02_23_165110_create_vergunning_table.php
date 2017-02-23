@@ -28,6 +28,6 @@ class CreateVergunningTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('werknemers');
+        Schema::dropIfExists('vergunning');
     }
 }
