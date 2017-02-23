@@ -11,5 +11,26 @@
 /* This is where the custom CSS begins */
 .img-circle
 {
-  width:10%;
+  width:100%;
+}
+.empl-photo {
+  width: 10%;
+  float:left;
+  margin-right: 2em;
+}
+.empl-info{
+  margin-bottom: 4em;
+}
+
+td {
+  border: #000000 1px solid;
+  padding: 1em 2em 1em 1em;
+}
+.lined {
+  border: #000000 1px solid;
+  padding: 2em 2em 2em 6em;
+}
+.bold
+{
+  font-weight: bold;
 }
