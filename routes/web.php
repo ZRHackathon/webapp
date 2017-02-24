@@ -17,15 +17,15 @@ Route::get('/', function () {
 */
 Route::get('/', function()
 {
-    return View('pages.home');
+    return View::make('pages.employee');
 });
 Route::get('contractor', function()
 {
     return View::make('pages.contractor');
 });
-Route::get('dayagenda', function()
+Route::get('workschedule', function()
 {
-    return View::make('pages.dayagenda');
+    return View::make('pages.workschedule');
 });
 Route::get('employee', function()
 {

@@ -15,7 +15,7 @@
         Function: Contractor
       </p>
       <p>
-        Current Projects: Special Process Oprations 2.0
+        Current Project: Special Process Operations 2.0
       </p>
     </div>
     <div class="lined">
@@ -57,10 +57,10 @@
         </tr>
         <tr>
           <td>
-            D. de Waard
+            <a href="/employee">D. de Waard</a>
           </td>
           <td>
-            Welder
+            <a href="/workschedule">Welder</a>
           </td>
           <td>
             Oil Pump
@@ -139,10 +139,21 @@
         </tr>
         <tr>
           <td>
-            Hydrocracker
+            Special Process Operations 2.0
           </td>
           <td>
             North
+          </td>
+          <td>
+            Hourly
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Hydrocracker
+          </td>
+          <td>
+            West
           </td>
           <td>
             Fixed price

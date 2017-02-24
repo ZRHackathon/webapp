@@ -1,6 +1,6 @@
 @extends('layouts.default')
 @section('content')
-    <h1>Welder</h1>
+    <h1>Daan de Waard - Welder</h1>
     <div class="job-maps">
       <img class="maps" src="img/zrpoint.png" />
 

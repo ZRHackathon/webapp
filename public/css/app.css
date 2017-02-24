@@ -50,3 +50,19 @@ td {
 div {
   width: auto;
 }
+.nav {
+  color: white;
+  background-color: #01559E;
+  width: 100%;
+}
+
+.navbar-nav > li > a {
+  color: white;
+}
+.navbar-nav > li > a:hover {
+  text-decoration: none;
+  background-color: #699519;
+}
+.first-item {
+  margin-left: 4em;
+}
