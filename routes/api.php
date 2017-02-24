@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Http\Request;
+use App\Permit;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +16,13 @@ use Illuminate\Http\Request;
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
+});
+
+Route::middleware('api')->get('/test', function (Request $request) {
+    $permit = App\Permit::all();
+    return $permit->toJson();
+});
+
+Route::middleware('api')->get('/info', function (Request $request) {
+    return phpinfo();
 });
