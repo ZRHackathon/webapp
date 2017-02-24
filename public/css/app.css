@@ -34,3 +34,19 @@ td {
 {
   font-weight: bold;
 }
+.job-maps {
+  width: 40%;
+  float:left;
+  margin-right: 2em;
+}
+.job-info
+{
+  margin-bottom: 12em;
+
+}
+.maps {
+  width: 100%;
+}
+div {
+  width: auto;
+}
